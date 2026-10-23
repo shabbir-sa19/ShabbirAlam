@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Shabbir Alam, a seasoned Web Developer specializing in accessible, performant static sites and web applications."
+    />
+    <title>Shabbir Alam | Web Developer</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22 fill='white'>SA</text></svg>"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="./" class="logo">Shabbir<span>Alam</span></a>
+        <nav>
+          <ul class="nav-menu" data-open="false">
+            <li><a href="./" class="nav-link" aria-current="page">Home</a></li>
+            <li><a href="./about/" class="nav-link">About</a></li>
+            <li>
+              <a href="./pricing/" class="nav-link">Services & Pricing</a>
+            </li>
+            <!-- <li><a href="./contact/" class="nav-link">Contact</a></li> -->
+          </ul>
+        </nav>
+        <button
+          class="nav-toggle"
+          aria-label="Toggle Navigation"
+          aria-expanded="false"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-menu preview-icon"
+          >
+            <path d="M4 5h16" />
+            <path d="M4 12h16" />
+            <path d="M4 19h16" />
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero container">
+        <span class="badge">Available for New Projects</span>
+        <h1>Building Performant, Accessible & Modern Web Experiences</h1>
+        <p>
+          Custom websites, web app architecture, and technical consultation
+          designed to convert visitors and scale seamlessly.
+        </p>
+        <div class="hero-actions">
+          <a href="./contact/" class="btn btn-primary">Start a Project</a>
+          <a href="./pricing/" class="btn btn-secondary">View Pricing</a>
+        </div>
+      </section>
+
+      <!-- Selected Work / Highlights Section -->
+      <section class="container">
+        <h2 style="margin-bottom: 1.5rem">Featured Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>E-Commerce Web Application</h3>
+            <p style="color: var(--text-muted); margin-block: 1rem">
+              Full-stack static modern storefront built for optimal speed and
+              lighthouse scores.
+            </p>
+            <a href="#" style="margin-top: auto">View Case Study &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Design System Documentation</h3>
+            <p style="color: var(--text-muted); margin-block: 1rem">
+              Accessible components, semantic layouts, and design token
+              architecture.
+            </p>
+            <a href="#" style="margin-top: auto">View Case Study &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>SaaS Landing Architecture</h3>
+            <p style="color: var(--text-muted); margin-block: 1rem">
+              Responsive static platform built specifically for fast conversion
+              and clear SEO setup.
+            </p>
+            <a href="#" style="margin-top: auto">View Case Study &rarr;</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          &copy; 2026 Shabbir Alam. All rights reserved. Hosted on GitHub Pages.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
